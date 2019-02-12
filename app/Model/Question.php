@@ -12,7 +12,7 @@ class Question extends Model
         return 'slug';
     }
 
-    protected $guarded=[];
+    protected $guarded = [];
 
     public function user()
     {
